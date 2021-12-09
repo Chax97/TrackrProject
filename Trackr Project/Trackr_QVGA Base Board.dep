@@ -1,0 +1,26 @@
+Dependencies for Project 'Trackr', Target 'QVGA Base Board': (DO NOT MODIFY !)
+F (.\src\main.c)(0x6105BA88)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (src\lpc24xx.h)(0x60B43B2A)
+I (src\RTC.h)(0x6105B7BD)
+I (src\MCI.h)(0x6105B374)
+I (src\ADC.h)(0x6105A220)
+I (src\RFT.h)(0x6105B9C5)
+I (src\DelayTimer.h)(0x6105B9E7)
+F (.\src\RTC.c)(0x6105B3C2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\rtc.o --omf_browse .\output\rtc.crf --depend .\output\rtc.d)
+I (src\RTC.h)(0x6105B7BD)
+I (src\lpc24xx.h)(0x60B43B2A)
+F (.\src\MCI.c)(0x6105B5B8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\mci.o --omf_browse .\output\mci.crf --depend .\output\mci.d)
+I (src\lpc24xx.h)(0x60B43B2A)
+I (src\MCI.h)(0x6105B374)
+F (.\src\ADC.c)(0x6105B439)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\adc.o --omf_browse .\output\adc.crf --depend .\output\adc.d)
+I (src\ADC.h)(0x6105A220)
+I (src\lpc24xx.h)(0x60B43B2A)
+F (.\src\DelayTimer.c)(0x6105B9DE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\delaytimer.o --omf_browse .\output\delaytimer.crf --depend .\output\delaytimer.d)
+I (src\lpc24xx.h)(0x60B43B2A)
+I (src\DelayTimer.h)(0x6105B9E7)
+F (.\src\RFT.c)(0x6105A220)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\rft.o --omf_browse .\output\rft.crf --depend .\output\rft.d)
+I (src\RFT.h)(0x6105B9C5)
+I (src\lpc24xx.h)(0x60B43B2A)
+F (.\src\DelayTimer.h)(0x6105B9E7)()
+F (.\src\RFT.h)(0x6105B9C5)()
+F (.\src\LPC2400.s)(0x610594D5)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output\lpc2400.o --depend .\output\lpc2400.d)

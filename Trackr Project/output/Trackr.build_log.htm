@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\fiasa\Desktop\Trackr Project\Trackr.uvproj
+Project File Date:  08/01/2021
+
+<h2>Output:</h2>
+Rebuild target 'QVGA Base Board'
+compiling main.c...
+src\main.c(61): warning:  #111-D: statement is unreachable
+                return 0;
+src\main.c: 1 warning, 0 errors
+compiling RTC.c...
+compiling MCI.c...
+src\MCI.c(193): warning:  #550-D: variable "respStatus" was set but never used
+      unsigned long respStatus;
+src\MCI.c: 1 warning, 0 errors
+compiling ADC.c...
+src\ADC.c(35): warning:  #61-D: integer operation result is out of range
+      if (dataReg & (1 << 31))
+src\ADC.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+      if (dataReg & (1 << 31))
+src\ADC.c: 2 warnings, 0 errors
+compiling DelayTimer.c...
+compiling RFT.c...
+assembling LPC2400.s...
+linking...
+Program Size: Code=3808 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\Trackr.axf" - 0 Error(s), 4 Warning(s).
+
+  #endif
+src\DelayTimer.c: 1 warning, 0 errors
+compiling RFT.c...
+assembling LPC2400.s...
+linking...
+Program Size: Code=3808 RO-data=32 RW-data=4 ZI-data=1388  
+".\output\Trackr.axf" - 0 Error(s), 6 Warning(s).
+-data=32 RW-data=4 ZI-data=1388  
+".\output\Trackr.axf" - 0 Error(s), 7 Warning(s).
+s without a newline
+  }
+src\DelayTimer.c: 1 warning, 4 errors
+compiling RFT.c...
+assembling LPC2400.s...
+".\output\Trackr.axf" - 4 Error(s), 5 Warning(s).
+Target not created

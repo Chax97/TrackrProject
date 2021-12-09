@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\output\main.o"
+".\output\rtc.o"
+".\output\mci.o"
+".\output\adc.o"
+".\output\delaytimer.o"
+".\output\rft.o"
+".\output\lpc2400.o"
+--scatter ".\output\Trackr.sct"
+--summary_stderr --info summarysizes -o .\output\Trackr.axf
